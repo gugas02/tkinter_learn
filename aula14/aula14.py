@@ -165,6 +165,9 @@ class Entrada(object):
         self.sixth_app = Button(self.frame0, text="App Canvas 6 - Mario", command=self.app6, bg=branco)
         # empacota o btn
         self.sixth_app.pack()
+        self.sixth_app = Button(self.frame0, text="App Canvas 7 - Desenha", command=self.app7, bg=branco)
+        # empacota o btn
+        self.sixth_app.pack()
 
     def cria_elementos4(self):
         inter.geometry("%ix%i" % (largura, altura))
@@ -297,6 +300,25 @@ class Entrada(object):
         self.frame1.pack()
         self.canvas.pack()
         self.comeca.pack()
+
+    def cria_elementos10(self):
+        inter.geometry("%ix%i" % (largura, altura))
+        self.frame0 = Frame(self.i)
+        self.frame0["bg"] = branco
+        # cria um canvas
+        self.canvas = Canvas(self.frame0, bg="grey", width=canvas_l, height=canvas_a)
+        # empacota tudo
+        self.frame0.pack()
+        self.canvas.pack()
+        # associa eventos ao canvas
+        self.canvas.bind('<1>', self.click_ln)
+        self.canvas.focus_force()
+        self.control=0
+        self.xa1 = 0
+        self.xa2 = 0
+        self.ya1 = 0
+        self.ya2 = 0
+
     #destroi oq foi construido com cria_elementos
     def destroi(self):
         self.lbl1.destroy()
@@ -506,6 +528,32 @@ class Entrada(object):
             self.nos += 1
         else:
             self.nos = 0
+
+    def app7(self):
+        self.destroi3()
+        self.cria_elementos10()
+
+    def click_ln(self, event):
+
+        if not self.control:
+            xo = self.canvas.winfo_rootx()
+            yo = self.canvas.winfo_rooty()
+            xa = self.canvas.winfo_pointerx()
+            ya = self.canvas.winfo_pointery()
+            self.xa1=xa-xo
+            self.ya1=ya-yo
+            self.control = 1
+        else:
+            xo = self.canvas.winfo_rootx()
+            yo = self.canvas.winfo_rooty()
+            xa = self.canvas.winfo_pointerx()
+            ya = self.canvas.winfo_pointery()
+            self.xa2 = xa - xo
+            self.ya2 = ya - yo
+            self.canvas.create_line(self.xa1, self.ya1, self.xa2, self.ya2)
+            self.xa1=self.xa2
+            self.ya1=self.ya2
+
 
 inter = Tk()
 inter['bg'] = branco

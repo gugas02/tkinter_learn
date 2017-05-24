@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="096bbba1-4609-4646-8ff6-562ff1acda5c" name="Default" comment="" />
+    <list default="true" id="096bbba1-4609-4646-8ff6-562ff1acda5c" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/aula13/aula13.py" afterPath="$PROJECT_DIR$/aula13/aula13.py" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -22,11 +24,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="aula13.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="aula13.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/aula13/aula13.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="226">
-              <caret line="482" column="100" lean-forward="false" selection-start-line="482" selection-start-column="100" selection-end-line="482" selection-end-column="100" />
+            <state relative-caret-position="135">
+              <caret line="504" column="34" lean-forward="true" selection-start-line="504" selection-start-column="34" selection-end-line="504" selection-end-column="34" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="aula14.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/aula14/aula14.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -109,6 +121,20 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tkinter_learn" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tkinter_learn" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="aula14" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
     </panes>
@@ -134,25 +160,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.aula13">
-    <configuration default="false" name="aula9" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/aula9" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="tkinter_learn" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/aula9/aula9.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="Python.aula14">
     <configuration default="false" name="aula10" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -225,6 +233,24 @@
       <option name="EMULATE_TERMINAL" value="false" />
       <method />
     </configuration>
+    <configuration default="false" name="aula14" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/aula14" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="tkinter_learn" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/aula14/aula14.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <method />
+    </configuration>
     <configuration default="true" type="PythonConfigurationType" factoryName="Python">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -290,19 +316,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Python.aula9" />
-      <item index="1" class="java.lang.String" itemvalue="Python.aula10" />
-      <item index="2" class="java.lang.String" itemvalue="Python.aula11" />
-      <item index="3" class="java.lang.String" itemvalue="Python.aula12" />
-      <item index="4" class="java.lang.String" itemvalue="Python.aula13" />
+      <item index="0" class="java.lang.String" itemvalue="Python.aula10" />
+      <item index="1" class="java.lang.String" itemvalue="Python.aula11" />
+      <item index="2" class="java.lang.String" itemvalue="Python.aula12" />
+      <item index="3" class="java.lang.String" itemvalue="Python.aula13" />
+      <item index="4" class="java.lang.String" itemvalue="Python.aula14" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.aula13" />
-        <item index="1" class="java.lang.String" itemvalue="Python.aula12" />
-        <item index="2" class="java.lang.String" itemvalue="Python.aula11" />
-        <item index="3" class="java.lang.String" itemvalue="Python.aula10" />
-        <item index="4" class="java.lang.String" itemvalue="Python.aula9" />
+        <item index="0" class="java.lang.String" itemvalue="Python.aula14" />
+        <item index="1" class="java.lang.String" itemvalue="Python.aula13" />
+        <item index="2" class="java.lang.String" itemvalue="Python.aula12" />
+        <item index="3" class="java.lang.String" itemvalue="Python.aula11" />
+        <item index="4" class="java.lang.String" itemvalue="Python.aula10" />
       </list>
     </recent_temporary>
   </component>
@@ -324,8 +350,9 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16178624" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16178624" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.27760252" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -366,25 +393,12 @@
           <line>426</line>
           <option name="timeStamp" value="14" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/aula13/aula13.py</url>
-          <line>500</line>
-          <option name="timeStamp" value="20" />
-        </line-breakpoint>
       </breakpoints>
       <option name="time" value="22" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/aula3/aula3.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="646">
-          <caret line="38" column="39" lean-forward="false" selection-start-line="38" selection-start-column="39" selection-end-line="38" selection-end-column="39" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/aula4/aula4.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="833">
@@ -776,8 +790,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/aula13/aula13.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="226">
-          <caret line="482" column="100" lean-forward="false" selection-start-line="482" selection-start-column="100" selection-end-line="482" selection-end-column="100" />
+        <state relative-caret-position="135">
+          <caret line="504" column="34" lean-forward="true" selection-start-line="504" selection-start-column="34" selection-end-line="504" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/aula14/aula14.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
