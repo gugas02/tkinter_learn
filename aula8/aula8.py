@@ -21,6 +21,8 @@ class Entrada(object):
         self.cria = PhotoImage(file="imgs/b_criar.ppm")
         self.novo = PhotoImage(file="imgs/b_novo.ppm")
         self.cria_elementos2()
+        self.x = 200
+        self.y = 200
 
 
     def cria_elementos(self):
@@ -149,10 +151,27 @@ class Entrada(object):
         # cria primeiro frame
         self.frame1 = Frame(self.i)
         self.frame1["bg"] = branco
+        #cria um canvas
         self.canvas = Canvas(self.frame0, bg=branco, width=canvas_l, height=canvas_a)
+        # cria o botão cima
+        self.cima = Button(self.frame1, text="Cima", command=self.up, bg=branco)
+        # cria o botão baixo
+        self.baixo = Button(self.frame1, text="Baixo", command=self.down, bg=branco)
+        # cria o botão esquerda
+        self.esquerda = Button(self.frame1, text="Esquerda", command=self.left, bg=branco)
+        # cria o botão direita
+        self.direita = Button(self.frame1, text="Direita", command=self.right, bg=branco)
+        # empacota tudo
+        self.frame0.pack()
+        self.frame1.pack()
+        self.canvas.pack()
+        self.cima.pack(side=LEFT)
+        self.baixo.pack(side=LEFT)
+        self.esquerda.pack(side=LEFT)
+        self.direita.pack(side=LEFT)
 
 
-    #destroi oq foi construido com cria_elementos
+        #destroi oq foi construido com cria_elementos
     def destroi(self):
         self.lbl1.destroy()
         self.inp1.destroy()
@@ -247,7 +266,18 @@ class Entrada(object):
     def app1(self):
         self.destroi3()
         self.cria_elementos4()
-
+    def up(self):
+        self.canvas.create_line(self.x, self.y, self.x, self.y-20, fill="red")
+        self.y -= 20
+    def down(self):
+        self.canvas.create_line(self.x, self.y, self.x, self.y+20, fill="blue")
+        self.y += 20
+    def left(self):
+        self.canvas.create_line(self.x, self.y, self.x-20, self.y, fill="green")
+        self.x -= 20
+    def right(self):
+        self.canvas.create_line(self.x, self.y, self.x+20, self.y, fill="orange")
+        self.x += 20
 
 inter = Tk()
 inter['bg'] = branco
